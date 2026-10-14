@@ -1,17 +1,17 @@
 # 🔍 Port Scanner
 
-Simple TCP port scanner built in Python for educational purposes.
+Escáner de puertos TCP simple hecho en Python con fines educativos.
 
-**Author:** Mirko David Schiavi - Roldán, Santa Fe, Argentina 🇦🇷  
+**Autor:** Mirko David Schiavi - Roldán, Santa Fe, Argentina 🇦🇷  
 **Portfolio:** [mirkoschi22-design.github.io](https://mirkoschi22-design.github.io)
 
-### 🚀 Features
-- Fast multi-threaded TCP scan
-- Custom port ranges (1-1024, 22,80,443, etc)
-- Banner grabbing for open ports
-- 100% Python, no external dependencies
+### 🚀 Características
+- Escaneo TCP multi-hilo rápido
+- Rangos de puertos personalizados (1-1024, 22,80,443, etc)
+- Detección de banners en puertos abiertos
+- 100% Python, sin dependencias externas
 
-### 💻 Usage
+### 💻 Uso
 ```bash
 python port_scanner.py 127.0.0.1 -p 1-1024
 python port_scanner.py 192.168.1.1 -p 22,80,443
